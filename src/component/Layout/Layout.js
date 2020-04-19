@@ -6,7 +6,7 @@ import Preloader from './Preloder';
 function layout (props) {
     return (
         <Fragment>
-            <Preloader />
+            {/* <Preloader /> */}
             {props.children}
             <Footer/>
         </Fragment>

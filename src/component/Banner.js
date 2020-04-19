@@ -6,15 +6,16 @@ export const MainBanner = () => {
                 {/* <!-- Banner Area Starts --> */}
                 <section id="banner-area" className="banner-area">
                 <div className="banner-overlay">
-                    <img src="./assets/img/banner_tl.png" alt="img" className="img-fluid" />
-                    <img src="./assets/img/heade_b_l.png" alt="img" className="img-fluid" />
+                    <video style={{position: 'absolute', height: '100%'}} loop autoPlay>
+                        <source src="./assets/videos/fengyuzhou-part.mov" type="video/mp4" />
+                    </video>
                 </div>
                 {/* <!-- End: banner-overlay --> */}
                 <div className="container d-flex h-100 align-items-center">
                     <div className=" header-content wow zoomIn slow">
-                    <h4 className="text-white">Best Animation Partner</h4>
-                        <h3 className="text-white m-top-20 m-bottom-35">Your Creative Studio</h3>
-                        <p className="text-white m-bottom-40">Top Service! With us, always save your $ and time</p>                    
+                    <h4 className="text-white">Creative Studio</h4>
+                        <h3 className="text-white m-top-20 m-bottom-35">Best Animation Partner</h3>
+                        <p className="text-white m-bottom-40">Animation is Beauty, We Promise With Our Masterpieces.</p>                    
                         <Link to='#' className="btn btn-primary btn-lg  gradient">contact us </Link>
                     </div>{/*<!-- End: header-content -->*/}
                 </div>{/*<!-- End: container -->*/}

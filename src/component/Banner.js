@@ -1,14 +1,16 @@
 import {Link} from "react-router-dom";
-import React, {Fragment} from 'react';
-export const MainBanner = () => {           
+import React, {Fragment, lazy, Suspense} from 'react';
+
+const VideoOrImg = lazy(() => import('./LazyComponent'))
+export const MainBanner = () => {
           return (
               <Fragment>          
                 {/* <!-- Banner Area Starts --> */}
                 <section id="banner-area" className="banner-area">
                 <div className="banner-overlay">
-                    <video style={{position: 'absolute', height: '100%'}} loop autoPlay>
-                        <source src="./assets/videos/fengyuzhou-part.mov" type="video/mp4" />
-                    </video>
+                    <Suspense fallback={<div>Fallback Component</div>}>
+                        <VideoOrImg />
+                    </Suspense>
                 </div>
                 {/* <!-- End: banner-overlay --> */}
                 <div className="container d-flex h-100 align-items-center">

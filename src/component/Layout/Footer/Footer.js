@@ -20,28 +20,22 @@ function Footer () {
                 <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6 col-sm-12 column">
                     <div className="social_logo">
-                    <p className="pb-2"><Link to="#"><img src="./assets/img/footer-logo.png" alt="img" className="img-fluid" /></Link></p>
-                    <p className="copyright mr-auto mt-2">&copy; 2019. All Rights Reserved. Created by <Link to="http://aazztech.com/" target="_blank">
-                        AazzTech</Link></p>
+                    <p className="d-flex flex-row align-items-center"><Link to="#"><img src="./assets/img/footer-logo.svg" alt="logo" height='30px' /></Link><div className='ml-2' style={{fontSize: 24, color: '#ff458a' }}>Vision Tree</div></p>
+                    <p className="copyright mr-auto mt-2">&copy; 2020. All Rights Reserved. Created by <Link to="/" target="_blank">
+                        Vision Tree</Link></p>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 column">
-                    <div>
-                    <ul className="list-inline m-0">
+                    <div style={{display: 'flex', justifyContent: 'center', fontSize: 12, flex: 1}}>
+                    <ul className="list-group">
                         <li className="list-inline-item">
-                        <Link to="#">
-                            <i className="fab fa-facebook-f"></i>
-                        </Link>
+                        Telephone: (+86) 800-888-8888
                         </li>
                         <li className="list-inline-item">
-                        <Link to="#">
-                            <i className="fab fa-behance"></i>
-                        </Link>
+                        e-mail: xinyuhuo@visiontree.com
                         </li>
                         <li className="list-inline-item">
-                        <Link to="#">
-                            <i className="fas fa-globe"></i>
-                        </Link>
+                        Address: 888 High Tech Ave STE 888, Hunnan District, Shenyang, LN China 110000.
                         </li>
                     </ul>
                     </div>{/*<!-- end: social button -->*/}

@@ -3,18 +3,18 @@
         "about" : [
             {
             "imgSrc" : "./assets/img/tree_colum_icon.png" ,
-            "title" : "fully responsive",
-            "content" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime"
+            "title" : "2D and 3D Animation",
+            "content" : "With our create handmade characters. Our 2D and 3D animation services are customizable based on unique requirements."
             },
             {
             "imgSrc" : "./assets/img/tree_colum_icon.png" ,
-            "title" : "Pixel Perfect",
-            "content" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime"
+            "title" : "Concept of Art",
+            "content" : "From the most basic and simple ideas and designs, we are helping to create the main characters or the support characters."
             },
             {
             "imgSrc" : "./assets/img/tree_colum_icon.png" ,
-            "title" : "no skilled needed",
-            "content" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime"
+            "title" : "Modelling and Rigging",
+            "content" : "expert animators create characters right from scratch to define the facial as well as physical features with great detailing."
             }
         ],   
         "service" : [
@@ -54,22 +54,40 @@
         "testimonial" : [
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
-                "name" : "Adolfo Todd",
-                "designation" : "React Specialist",
-                "comment" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime kenim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime eiusmod tempor incididunt labore dolore magna minim veniam nostrud"
+                "name" : "Our Character Animation Process",
+                "designation" : "01. Project Scope",
+                "comment" : "When you get in touch with us, we communicate with you to understand your requirements, the pricing, and an estimated timeframe that it would take for the completion and project delivery."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
-                "name" : "Adolfo Todd",
-                "designation" : "React Specialist",
-                "comment" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime kenim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime eiusmod tempor incididunt labore dolore magna minim veniam nostrud"
+                "name" : "Our Character Animation Process",
+                "designation" : "02. Receive Order",
+                "comment" : "After understanding your requirements and coming up with a proper plan of action, we receive any drafts or materials that you have via a secure FTP channel."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
-                "name" : "Adolfo Todd",
-                "designation" : "React Specialist",
-                "comment" : "Nemo enim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime kenim ipsam voluptatem quia voluptas aspernatur blandit tempus porttitor maxime eiusmod tempor incididunt labore dolore magna minim veniam nostrud"
-            }                       
+                "name" : "Our Character Animation Process",
+                "designation" : "03. Resource Allocation",
+                "comment" : "We then appoint a project manager for your project and allocate resources that would be required to complete your project within the estimated time. The project manager takes care of the execution and provides you with regular updates about the project."
+            },
+            {
+                "imgSrc" : "./assets/img/t_logo.png" ,
+                "name" : "Our Character Animation Process",
+                "designation" : "04. Execution",
+                "comment" : "We then start our character development process, taking into account all your character animation needs with the help of our animation experts and software."
+            },
+            {
+                "imgSrc" : "./assets/img/t_logo.png" ,
+                "name" : "Our Character Animation Process",
+                "designation" : "05. Review",
+                "comment" : "We then check the project for quality to ensure that the project meets the expectations of our client."
+            },
+            {
+                "imgSrc" : "./assets/img/t_logo.png" ,
+                "name" : "Our Character Animation Process",
+                "designation" : "06. Output",
+                "comment" : "We deliver the output in the file format as per your preference and send it to you via a secure FTP channel."
+            }                  
         ],
         "portfolio" : [
             {

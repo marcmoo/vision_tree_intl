@@ -2732,15 +2732,7 @@ footer.footer-area p a:hover {
 }
 
 footer.footer-area ul {
-  text-align: right;
-}
-
-footer.footer-area ul li {
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 69, 138, 0.18);
-  -webkit-border-radius: 50px;
-          border-radius: 50px;
+  text-align: left;
 }
 
 footer.footer-area ul li a {

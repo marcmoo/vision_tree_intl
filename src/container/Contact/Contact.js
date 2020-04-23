@@ -25,7 +25,7 @@ class Contact extends Component {
                 <section id="contact" className="contact p-top-150 p-bottom-100">
                     <div className="container">
                         <h2 className="card-title text-center text-white m-bottom-25">Ready to get started?</h2>
-                        <p className="text-center text-white m-bottom-20">Nemo enim psam voluptatem quia voluptas aspernatur blandit tempus.</p>
+                        <p className="text-center text-white m-bottom-20">Please Leave your name and email, we will touch base with you ASAP</p>
                         <div className="contact_overlay position-absolute">
                             <img src="./assets/img/heade-bottom-shape.png" alt="img" className="img-fluid" />
                         </div> {/*<!-- End: contact_overlay -->*/}
@@ -48,7 +48,7 @@ class Contact extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className="btn-success btn-lg wow zoomIn rounded-sm slow mt-5 border-0" type="submit">let&#39;s talk</button>
+                                    <button className="btn-success btn-lg wow zoomIn rounded-sm slow mt-5 border-0" type="submit">submit</button>
                                 </form>
                             </div> {/*<!-- end: col+ -->*/}
                         </div> {/*<!-- End: row -->*/}

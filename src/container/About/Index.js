@@ -40,7 +40,7 @@ class About extends Component {
                                         ">
                                         <div className="card-body bg-transparent p-0">
                                             <Link to="/" onClick={click}>                                            
-                                                <h2 className="card-title m-0"><span>Branding</span> & <span>Experience</span> design agency</h2>                                           
+                                                <h2 className="card-title m-0"><span>Our Experience</span> <span>& </span> <span>Trust</span></h2>                                           
                                             </Link>
                                             <p className="card-text  p-top-40 p-bottom-30">Customers buy our products and services with guarantee. We are confident in this because in several years of development, we have established a fully functional organization with great management experience and extraordinary techniques. We provide the best supply chain for your product with our production department, development department, drawing department, technology department, finance department and logistics department. With our multi-channel business model, we provide diversified production solutions for our clients. All of these, together with our enthusiasm, creativity, and love, we would like to thrive in the animation field together with our clients.</p>
                                             <Link to="/"  onClick={click} className="btn btn-primary btn-lg  gradient">

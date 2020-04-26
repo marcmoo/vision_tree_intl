@@ -54,38 +54,52 @@
         "testimonial" : [
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
+                "name" : "Xinyu Huo",
+                "designation" : "President",
+                "comment" : "At Vision Tree, our goal is to make great animations with people who have interesting souls. We are proud of our tradition of creative and technical excellence and are always looking for talented people to enrich our work and our community."
+            },
+            {
+                "imgSrc" : "./assets/img/t_logo.png" ,
+                "name" : "Jack Ma",
+                "designation" : "Vice President",
+                "comment" : "We believe it is important for us to reflect the diversity of the society we live in and the worldwide audiences for whom we make our animations. And by sharing of knowledgement and experience, let us make contributions for a stable, high-quality and sustainable animation market together."
+            }              
+        ],
+        "workflow" : [
+            {
+                "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "01. Project Scope",
+                "designation" : "Project Scope",
                 "comment" : "When you get in touch with us, we communicate with you to understand your requirements, the pricing, and an estimated timeframe that it would take for the completion and project delivery."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "02. Receive Order",
+                "designation" : "Receive Order",
                 "comment" : "After understanding your requirements and coming up with a proper plan of action, we receive any drafts or materials that you have via a secure FTP channel."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "03. Resource Allocation",
+                "designation" : "Resource Allocation",
                 "comment" : "We then appoint a project manager for your project and allocate resources that would be required to complete your project within the estimated time. The project manager takes care of the execution and provides you with regular updates about the project."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "04. Execution",
+                "designation" : "Execution",
                 "comment" : "We then start our character development process, taking into account all your character animation needs with the help of our animation experts and software."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "05. Review",
+                "designation" : "Review",
                 "comment" : "We then check the project for quality to ensure that the project meets the expectations of our client."
             },
             {
                 "imgSrc" : "./assets/img/t_logo.png" ,
                 "name" : "Our Character Animation Process",
-                "designation" : "06. Output",
+                "designation" : "Output",
                 "comment" : "We deliver the output in the file format as per your preference and send it to you via a secure FTP channel."
             }                  
         ],

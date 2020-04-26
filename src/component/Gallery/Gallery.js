@@ -5,8 +5,8 @@ function Gallery (props) {
         <Fragment>
             <li className="col-lg-6 col-sm-6">
                 <div className="position-relative">
-                <Link to={props.img} className="img-overlay"><img
-                            src={props.img} className="img-fluid rounded" alt="img" />                   
+                <Link to={props.img} className="img-overlay">
+                    <img src={props.img} className="img-fluid rounded" alt="img" />                   
                 </Link>
                 </div>
             </li>                                            

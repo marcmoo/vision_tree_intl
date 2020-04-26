@@ -20,7 +20,7 @@ class Partner extends Component {
                                                 <Link to="#">
                                                     <h2 className="card-title text-dark p-bottom-40 mb-0">Trusted partners</h2>
                                                 </Link>
-                                                <p className="card-text">Nemo enim ipsam voluptatem quia voluptas aspernat blandit tempus porttitor maxime.</p>
+                                                <p className="card-text">We've been outsourced by world famous Animation Studios including Walt Disney, DreamWorks, Pixar, etc</p>
                                             </div>
                                         </div>
                                         {/* <!-- End: card --> */}

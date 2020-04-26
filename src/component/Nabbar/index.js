@@ -8,6 +8,24 @@ class Nabbar extends Component {
     state = {
         redirect: false
     }    
+    renderBlog = () => (
+        <li>
+          <Link className="nav-link" style={{cursor: 'pointer'}} to='/' >blog <i className="fa fa-angle-down"></i></Link>
+          <ul className="sub-menu">
+              <li>
+                  <Link to="/blog" className="nav-link">blog grid one</Link>
+                  {/* <a href="blog_grid_one.html" className="nav-link">blog grid one</a> */}
+              </li>
+              <li>
+                  <Link to="/blog2" className="nav-link">blog grid two</Link>
+                  {/* <a href="blog_grid_two.html" className="nav-link">blog grid two</a> */}
+              </li>
+              <li>
+                  <Link to="/blog3" className="nav-link">blog grid single</Link>
+                  {/* <a href="blog_single.html" className="nav-link">blog grid single</a> */}
+              </li>
+          </ul>
+        </li>)
     setRedirect = (e) => {
         var link = window.location.href.split('/').pop(),
             link2 = window.location.href.split(link)[0];
@@ -82,23 +100,8 @@ class Nabbar extends Component {
                                                 <li><a onClick={this.setRedirect} href="#services" className="nav-link">services</a></li>
                                                 <li><a onClick={this.setRedirect} href="#team" className="nav-link">team</a></li>
                                                 <li><a onClick={this.setRedirect} href="#portfolio" className="nav-link">portfolio</a></li>
-                                                <li>
-                                                <Link className="nav-link" style={{cursor: 'pointer'}} to='/' >blog <i className="fa fa-angle-down"></i></Link>
-                                                    <ul className="sub-menu">
-                                                        <li>
-                                                            <Link to="/blog" className="nav-link">blog grid one</Link>
-                                                            {/* <a href="blog_grid_one.html" className="nav-link">blog grid one</a> */}
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/blog2" className="nav-link">blog grid two</Link>
-                                                            {/* <a href="blog_grid_two.html" className="nav-link">blog grid two</a> */}
-                                                        </li>
-                                                        <li>
-                                                            <Link to="/blog3" className="nav-link">blog grid single</Link>
-                                                            {/* <a href="blog_single.html" className="nav-link">blog grid single</a> */}
-                                                        </li>
-                                                    </ul>
-                                                </li>
+                                                {/* Todo: blog可以再今后添加 */}
+                                                {/* {this.renderBlog()} */}
                                                 <li><a onClick={this.setRedirect} href="#testimonial" className="nav-link">testimonial</a></li>
                                                 <li><a onClick={this.setRedirect} href="#contact" className="nav-link">contact</a></li>
                                             </ul>
